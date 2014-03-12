@@ -1,7 +1,14 @@
+/**
+ * Java version of a Hello-World
+ */
 public class HelloWorld
 {
   public static void main(String[] args)
   {
-        System.out.println("HelloWorld");
+  	if ( args != null && args.length > 0 ) {
+		System.out.println( "Hello " + args[0] );
+	} else {
+        	System.out.println("HelloWorld");
+	}
   }
 }
