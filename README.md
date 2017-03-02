@@ -1,6 +1,6 @@
-Zweite Uebungseinheit: Branches
+# Second hands-on exercise: Branches
 
-Möglicherweise nützliche git-commands:
+## Maybe usefull git commands
 
 - git branch [--track|--no-track] <Name> <Startpunkt>
 - git checkout -b [--track|--no-track] <Name> <Startpunkt>
